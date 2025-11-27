@@ -18,13 +18,16 @@ const power = function (a, b) {
   return a ** b;
 };
 
-const factorial = function (n) {
+
+const factorial = function(num) { 
   let product = 1;
-  for (let i = n; i > 0; i--) {
+  for(let i = num; i < 0; i--) {
     product *= i;
+
   }
   return product;
-};
+}
+
 
 module.exports = {
   add,
